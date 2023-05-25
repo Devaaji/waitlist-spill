@@ -1,0 +1,22 @@
+.root {
+  @apply w-full flex flex-col gap-1;
+  & label {
+    @apply text-small font-normal leading-low font-satoshi text-dark mb-[8px];
+  }
+}
+
+.wrapper {
+  @apply flex w-full border-[1px] border-solid border-dark py-[15px] px-[24px] border-abu rounded-[12px];
+  & input {
+    @apply w-full bg-transparent border-none bg-none;
+  }& textarea {
+    @apply  border w-full bg-transparent border-none rounded-md  focus:outline-none focus:border-transparent
+  }
+}
+
+.icon {
+  @apply cursor-pointer;
+  & svg {
+    @apply text-abu2;
+  }
+}
